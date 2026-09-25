@@ -13,7 +13,7 @@ cd outputs/results/PositionSizing/
 cat position_sizing_chunk3_test_* > position_sizing_chunk3_test.csv
 
 cd ../FusionEngine/
-cat position_sizing_chunk3_test_* > position_sizing_chunk3_test.csv
+cat fused_decisions_chunk3_test_* > fused_decisions_chunk3_test.csv
 
 cd ../QuantitativeAnalyst/
 cat quantitative_analysis_chunk3_test_* > quantitative_analysis_chunk3_test.csv
