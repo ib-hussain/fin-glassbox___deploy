@@ -1,0 +1,45 @@
+{
+  "mode": "frozen-cached",
+  "chunks": [
+    3
+  ],
+  "splits": [
+    "val",
+    "test"
+  ],
+  "files": [
+    "code/inference.py",
+    "code/deploy.py",
+    "code/fusion/fusion_layer.py",
+    "code/analysts/quantitative_analyst.py",
+    "code/analysts/qualitative_analyst.py",
+    "outputs/models/QuantitativeAnalyst/chunk3/best_model.pt",
+    "outputs/models/QuantitativeAnalyst/chunk3/final_model.pt",
+    "outputs/models/QuantitativeAnalyst/chunk3/scaler.npz",
+    "outputs/models/FusionEngine/chunk3/best_model.pt",
+    "outputs/models/FusionEngine/chunk3/final_model.pt",
+    "outputs/models/FusionEngine/chunk3/scaler.npz",
+    "outputs/results/PositionSizing/position_sizing_chunk3_val.csv",
+    "outputs/results/QualitativeAnalyst/qualitative_daily_chunk3_val.csv",
+    "outputs/results/PositionSizing/position_sizing_chunk3_test.csv",
+    "outputs/results/QualitativeAnalyst/qualitative_daily_chunk3_test.csv"
+  ],
+  "existing": {
+    "code/inference.py": true,
+    "code/deploy.py": true,
+    "code/fusion/fusion_layer.py": true,
+    "code/analysts/quantitative_analyst.py": true,
+    "code/analysts/qualitative_analyst.py": true,
+    "outputs/models/QuantitativeAnalyst/chunk3/best_model.pt": true,
+    "outputs/models/QuantitativeAnalyst/chunk3/final_model.pt": true,
+    "outputs/models/QuantitativeAnalyst/chunk3/scaler.npz": true,
+    "outputs/models/FusionEngine/chunk3/best_model.pt": true,
+    "outputs/models/FusionEngine/chunk3/final_model.pt": true,
+    "outputs/models/FusionEngine/chunk3/scaler.npz": true,
+    "outputs/results/PositionSizing/position_sizing_chunk3_val.csv": true,
+    "outputs/results/QualitativeAnalyst/qualitative_daily_chunk3_val.csv": true,
+    "outputs/results/PositionSizing/position_sizing_chunk3_test.csv": true,
+    "outputs/results/QualitativeAnalyst/qualitative_daily_chunk3_test.csv": true
+  },
+  "note": "For first local demo, chunk3 val/test is enough. Full lower-level raw inference needs more code/data/model artefacts."
+}
